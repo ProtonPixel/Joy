@@ -8,8 +8,7 @@ class Line {
   color colour;
 
   Line(PVector begin, PVector end) {
-    noirel = new OpenSimplexNoise(); //because it sounds cool
-
+    noirel = new OpenSimplexNoise();
     this.begin = begin.copy();
     this.end = end.copy();
 
